@@ -159,12 +159,12 @@ bar {
 	status_command py3status -c ~/.i3/i3status.conf
 
     colors {
-        background #032540
-        statusline #6E91A1
+        background #2C2C2C
+        statusline #16A086
 
-        focused_workspace  #6E91A1 #032540 #6E91A1
-        active_workspace   #032540 #032540 #6E91A1
-        inactive_workspace #032540 #032540 #6E91A1
+        focused_workspace  #16A086 #16A086 #2C2C2C
+        active_workspace   #2C2C2C #2C2C2C #16A086
+        inactive_workspace #2C2C2C #2C2C2C #16A086
         urgent_workspace   #2F343A #900000 #ffffff
     }
 }
@@ -180,9 +180,9 @@ hide_edge_borders both
 # 
 # <colorclass> <border> <background> <text> <indicator> <child_border>
 ##############################
-client.focused          #6E91A1 #032540 #6E91A1
-client.focused_inactive #032540 #032540 #6E91A1
-client.unfocused        #032540 #032540 #6E91A1
+client.focused          #16A086 #16A086 #2C2C2C
+client.focused_inactive #2C2C2C #2C2C2C #16A086
+client.unfocused        #2C2C2C #2C2C2C #16A086
 client.urgent           #2F343A #900000 #FFFFFF
 
 ##############################
