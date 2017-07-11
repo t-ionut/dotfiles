@@ -159,12 +159,12 @@ bar {
 	status_command py3status -c ~/.i3/i3status.conf
 
     colors {
-        background #2C2C2C
+        background #000000
         statusline #16A086
 
-        focused_workspace  #16A086 #16A086 #2C2C2C
-        active_workspace   #2C2C2C #2C2C2C #16A086
-        inactive_workspace #2C2C2C #2C2C2C #16A086
+        focused_workspace  #16A086 #16A086 #000000
+        active_workspace   #000000 #000000 #16A086
+        inactive_workspace #000000 #000000 #16A086
         urgent_workspace   #2F343A #900000 #ffffff
     }
 }
@@ -180,9 +180,9 @@ hide_edge_borders both
 # 
 # <colorclass> <border> <background> <text> <indicator> <child_border>
 ##############################
-client.focused          #16A086 #16A086 #2C2C2C
-client.focused_inactive #2C2C2C #2C2C2C #16A086
-client.unfocused        #2C2C2C #2C2C2C #16A086
+client.focused          #16A086 #16A086 #000000
+client.focused_inactive #000000 #000000 #16A086
+client.unfocused        #000000 #000000 #16A086
 client.urgent           #2F343A #900000 #FFFFFF
 
 ##############################
@@ -214,8 +214,8 @@ for_window [class="emulator64-x86"] floating enable
 ##############################
 # i3-gaps
 ##############################
-gaps inner 5
-gaps outer 3
+gaps inner 10
+gaps outer 15
 
 # Disable window titlebars
 for_window [class="^.*"] border pixel 0
@@ -223,4 +223,4 @@ for_window [class="^.*"] border pixel 0
 ##############################
 # Background
 ##############################
-exec --no-startup-id feh --bg-fill ~/.i3/wallpapers/i3wm-gray.jpg
+exec --no-startup-id feh --bg-fill ~/.i3/wallpapers/solarized-triangle.png
