@@ -223,4 +223,4 @@ for_window [class="^.*"] border pixel 0
 ##############################
 # Background
 ##############################
-exec --no-startup-id feh --bg-fill ./wallpapers/i3wm-gray.jpg
+exec --no-startup-id feh --bg-fill ~/.i3/wallpapers/i3wm-gray.jpg
