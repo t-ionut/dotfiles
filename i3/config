@@ -158,7 +158,7 @@ mode "resize" {
 bar {
     position top
     font pango:Terminus Bold Semi-Condensed 12px
-	status_command py3status -c ~/.i3/i3status.conf
+    status_command py3status -c ~/.i3/i3status.conf
 
     colors {
         background #000000
