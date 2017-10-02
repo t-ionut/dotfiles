@@ -45,12 +45,7 @@ let g:clang2_placeholder_prev = ''
 "                       "
 """""""""""""""""""""""""
 let g:space_vim_dark_background = 233
-let g:spacevim_colorscheme = 'space-vim-dark'
 let g:spacevim_max_column = 80
-let g:spacevim_custom_plugins = [
-        \ ['liuchengxu/space-vim-dark'],
-        \ ['morhetz/gruvbox'],
-        \ ]
 
 " Make navigating between open files easier
 nnoremap <C-J> <C-W><C-J>
