@@ -220,8 +220,8 @@ for_window [class="emulator64-x86"] floating enable
 ##############################
 # i3-gaps
 ##############################
-gaps inner 10
-gaps outer 15
+gaps inner 5
+gaps outer 10
 
 # Disable window titlebars
 for_window [class="^.*"] border pixel 0
